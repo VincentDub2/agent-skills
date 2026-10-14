@@ -1,0 +1,39 @@
+---
+name: skill-name
+description: "<Action and expected outcome>. Use when <specific situations that should trigger this skill>."
+---
+
+# <Skill Title>
+
+## Objective
+
+<Describe the observable outcome achieved at the end of this workflow.>
+
+## Scope
+
+- Use this skill for <specific task>.
+- For <related but out-of-scope case>, <explain how to proceed>.
+
+## Procedure
+
+1. **Frame.** Gather <required information>. If missing information blocks
+   progress, ask a focused question. This step is complete when <criterion>.
+2. **Examine.** Read <relevant files, examples, or context>. Consult only resources
+   useful to the request. Finish when <criterion>.
+3. **Execute.** Perform <concrete, ordered actions>. Respect <constraints specific
+   to this workflow>. Finish when <criterion>.
+4. **Verify.** Run <command, test, or inspection that validates the outcome>.
+   On failure, <corrective action or stopping condition>. Finish when <criterion>.
+5. **Report.** Provide <expected deliverable>, checks performed, and remaining
+   limitations. Distinguish verified facts from assumptions.
+
+## Completion Criteria
+
+- <Expected measurable or observable outcome.>
+- <Verification required to consider the task complete.>
+- <Condition requiring a decision or a blocker report.>
+
+## Output Format
+
+<Specify the information to return or the deliverable format, without requiring
+sections that add no value to this task.>
