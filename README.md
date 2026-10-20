@@ -4,8 +4,8 @@ My coding agent skills: short, focused, reusable workflows organized following
 the pattern used by
 [mattpocock/skills](https://github.com/mattpocock/skills).
 
-This repository includes two focused skills for reliable tool use and MCP tool
-design, plus a template for creating further skills.
+This repository includes focused skills for reliable tool use, MCP tool design,
+and agent evaluation, plus a template for creating further skills.
 
 ## Structure
 
@@ -102,15 +102,21 @@ Other agents may use different locations.
 	or errors are ambiguous.
 - [mcp-tool-design](skills/engineering/mcp-tool-design/SKILL.md): design or audit
 	MCP tool contracts, resource access, failure behavior, and compatibility cards.
+- [agent-evals](skills/engineering/agent-evals/SKILL.md): build and diagnose agent
+	evaluations with representative tasks, trustworthy graders, isolated trials,
+	and meaningful capability and regression metrics.
 
-Both skills build on Microsoft Research's
+The tool-use and MCP design skills build on Microsoft Research's
 [tool-space interference article](https://www.microsoft.com/en-us/research/blog/tool-space-interference-in-the-mcp-era-designing-for-agent-compatibility-at-scale/).
 The design skill also points to the official MCP specification for version-specific
-behavior. Each skill is standalone and has a separate scope.
+behavior. The evaluation skill draws on Anthropic's
+[Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents).
+Each skill is standalone and has a separate scope.
 
 Validation performed: YAML frontmatter, name/folder consistency, placeholder and
 local-link checks, and simulated intended and out-of-scope requests with GitHub
-Copilot. Automatic client discovery and live MCP compatibility remain untested.
+Copilot. Automatic client discovery, live MCP compatibility, and real
+agent-evaluation runs remain untested.
 
 ## References
 
